@@ -185,7 +185,7 @@ function displayAllUsers(){
 		        	 
 		        	  str+= '<div style="margin: 25px; padding: 25px;background-color:#000033; width:80%; border-radius: 5px;">'
 							 +'<div style="float: right; padding: 2px; font-weight: bold; color: white; border: dashed white; border-width: 1px; padding 15px;">'+array[i]['rating'] +'</div>'
-					         +'<img style="width:50px; height: 50px; float: left; margin:5px;" src="images/emoji.jpg"/>'
+					         +'<img style="width:50px; height: 50px; float: left; margin:5px;" src="emoji.jpg"/>'
 							 +'<p style="padding: 5px; color: white;">'+ array[i]['post']+ '</p>'
 							 + '<a href="profile.php?user='+array[i]['username']+'"><p id="insertUser" style="float: right; padding: 0px; color: white;">-'+array[i]['username']+'</p></a><br>'
 							 + '<br><br><form onsubmit="addComment('+array[i]['id']+');"><textarea id="commentBox'+array[i]['id']+'" placeholder="Write a comment..."style="width: 80%; background-color: whitesmoke; border-radius: 5px; border: none;" required></textarea>'
