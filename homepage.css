@@ -1,0 +1,54 @@
+@charset "ISO-8859-1";
+body{
+    background-image: url("https://ka-perseus-images.s3.amazonaws.com/e6de03da0b29acc1f88649b3344b68eff0c52d99.jpg");
+    background-repeat: repeat;
+    }
+h1{
+	border: black 2pt ridge;
+	background-color: black;
+	background-opacity: 0.5;
+	color: #f4e1d2;
+	font-family: sans-serif;
+	font-variant: small-caps;
+    text-shadow: 2px 2px black;
+    
+}
+#left{
+    float:left; 
+    width: 20%; 
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    box-shadow: 5px 5px 5px gray;
+   
+}
+textarea{
+	width: 80%;
+	height: 50px;
+}
+#postsArea{
+	background-color: white;
+	float: left;
+	margin: 15px;
+	border-radius: 5px;
+	padding: 10px;
+	width: 40%;
+	box-shadow: 5px 5px 5px gray;
+	
+}
+#addPost{
+    background-color: white;
+    float: left;
+    margin: 15px;
+    border-radius: 5px;
+    width: 40%;
+    padding: 10px;
+    box-shadow: 5px 5px 5px gray;
+    
+}
+
+h1{
+    text-align: center;
+    }
+    
