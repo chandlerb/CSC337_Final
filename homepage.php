@@ -164,7 +164,7 @@ function displayAllUsers(){
 	          var str = "";
 	          for(i=0; i<array.length; i++){
 	        	  str+='<p style="margin: 25px; padding: 25px; border: 2px dashed lightgray;"><a style="color: black; text-decoration: none;" href="profile.php?user='+array[i]['username']+
-	        	  '"><img style="width:50px; height: 50px; float: left; margin: 5px;" src="images/emoji.jpg">' 
+	        	  '"><img style="width:50px; height: 50px; float: left; margin: 5px;" src="emoji.jpg">' 
 			          + array[i]['username'] + '<br>'+ array[i]['gender'] + '</p></a>';
 	          }
 		      document.getElementById("toChange").innerHTML=str;
