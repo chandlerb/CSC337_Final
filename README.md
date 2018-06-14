@@ -1,5 +1,6 @@
 # CSC337_Final
 # CSC Web Programming Final Project
+To run the mariaDB paste (/Applications/XAMPP/xamppfiles/bin/mysql -u root) into mac terminal
 # COPY AND PASTE THIS INTO SQL DATABASE TO GET FULL USAGE 
 
 
